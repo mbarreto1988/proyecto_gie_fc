@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="main.js"></script> <!-- la propiedad defer sirve para que se jecute una vez que se haya cargado toda la pagina, es lo mismo que ponerlo al final del body / -->
+    <link rel="stylesheet" href="style.css">
+        <title>nav_bar</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">logo</a>
+            <button class="nav-toggle" aria-label="Abrir Menú"> <i class="fa-solid fa-bars"></i> </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Redes</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link"> Videos</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Sobre Nosotros</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrap">
+        <ul class="tabs">
+            <li><a href="#tab1"><span><i class="fa-solid fa-house"></i> </span><span class="tab-tex"> inicio</span></a>
+            </li>
+            <li><a href="#tab2"><span><i class="fa-solid fa-people-group"></i> </span><span class="tab-tex">Fotos</span></a></li>
+            <li><a href="#tab3"><span><i class="fa-solid fa-briefcase"></i> </span><span class="tab-tex">Agenda de Partidos</span></a></li>
+            <li><a href="#tab4"><span><i class="fa-solid fa-book-bookmark"></i> </span><span class="tab-tex">Streaming</span></a></li>
+        </ul>
+        <div class="secciones">
+            <article id="tab1">
+                <h1>inicio</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quos, laboriosam totam inventore,
+                    officiis maxime dignissimos sed, reiciendis alias beatae deserunt natus aut accusamus! Minus minima
+                    delectus magni voluptates.</p>
+            </article>
+            <article id="tab2">
+                <h1>Nosotros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quos, laboriosam totam inventore,
+                    officiis maxime dignissimos sed, reiciendis alias beatae deserunt natus aut accusamus! Minus minima
+                    delectus magni voluptates.</p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit maxime corporis error placeat totam
+                    atque similique numquam odit eveniet? Tempora, accusamus minima illum accusantium pariatur hic
+                    consectetur voluptatibus laudantium explicabo.</p>
+            </article>
+            <article id="tab3">
+                <h1>Servicios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quos, laboriosam totam inventore,
+                    officiis maxime dignissimos sed, reiciendis alias beatae deserunt natus aut accusamus! Minus minima
+                    delectus magni voluptates.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum tempora excepturi
+                    fugiat nihil, modi distinctio, voluptas sapiente sed tempore suscipit. Veritatis provident in ipsa
+                    perspiciatis nesciunt fuga quaerat nobis.</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque recusandae rerum modi natus saepe qui,
+                    voluptas eligendi explicabo nisi ipsam amet necessitatibus at omnis voluptates minima labore
+                    molestias consectetur debitis!</p>
+            </article>
+            <article id="tab4">
+                <h1>Blog</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quos, laboriosam totam inventore,
+                    officiis maxime dignissimos sed, reiciendis alias beatae deserunt natus aut accusamus! Minus minima
+                    delectus magni voluptates.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum tempora excepturi
+                    fugiat nihil, modi distinctio, voluptas sapiente sed tempore suscipit. Veritatis provident in ipsa
+                    perspiciatis nesciunt fuga quaerat nobis.</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque recusandae rerum modi natus saepe qui,
+                    voluptas eligendi explicabo nisi ipsam amet necessitatibus at omnis voluptates minima labore
+                    molestias consectetur debitis!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reprehenderit, libero natus
+                    temporibus facilis, assumenda et tempore labore atque velit ut eligendi minus at distinctio aliquid?
+                    Reprehenderit reiciendis quas recusandae.</p>
+            </article>
+        </div>
+    </div>
+
+</body>
+
+</html>
