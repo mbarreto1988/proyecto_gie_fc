@@ -142,6 +142,13 @@ body{
     margin: 100px auto;    
     
 }
+.titulo{
+    text-align: center;
+    margin: 10px auto;
+    color: #ffff00;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
 ul.tabs{
     width: 100%;
     background: #363636;
@@ -156,7 +163,7 @@ ul.tabs li a{
     text-decoration: none;
     font-size: 16px;
     text-align: center;
-    transition: 0.3s;
+    transition: 0.1s;
 
     display: block;
     padding: 20px 0px;
@@ -176,8 +183,9 @@ ul.tabs li a .tab-tex{
 }
 .secciones article p{
     text-align: justify;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     letter-spacing: 3px;
+    
 }
 .estadistica iframe{
     width: 500px;
@@ -186,28 +194,39 @@ ul.tabs li a .tab-tex{
     margin: 20px auto;
     display: flex;
 }
-.videos_youtube {
-    
-}
+
 
 
 /* *******contenido***********+ */
+
+.videos_youtube{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos_youtube iframe{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    background-color: #5858d5;
+    opacity: .92;
+    padding: 1px;
+}
+
 .imagenesFotos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: white;
+    opacity: .8;
 }
 
 .imagenesFotos img{
-    /* width: 400px; */
     height: 31vh;
     padding: 20px;
-    /* border: 2px solid greenyellow;
-    border-radius: 20px;
-    background-color: #9d9df9;
-    opacity: .92;
-    padding: 7px; */
 }
 
 
@@ -230,5 +249,4 @@ ul.tabs li a .tab-tex{
     .secciones article{
         padding: 20px;
     }
-
 }
