@@ -1,18 +1,17 @@
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     box-sizing: border-box;
 }
 body{
-    background: #d4d4d4;
+    background-image: url(/img/fondo.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
     font-family: sans-serif;
 }
-
-
-
 .header{
-    background-color: #0769e9;
-    height: 80px;
+    background-color: rgb(2, 255, 2);
+    height: 100px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -35,14 +34,20 @@ body{
     padding: 0 40px;
     line-height: 80px;
 }
-
+.logo img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav.nav{
+    height: 100px;
+}
 .nav-menu{
     display: flex;
     margin-right: 20px;
     list-style: none;
 }
-
-/**/
 .nav-menu-item{
     font-size: 18px;
     margin: 0 10px;
@@ -54,9 +59,14 @@ body{
     padding: 8px 12px;
     border-radius: 3px;
 }
+
+.nav-menu li a{
+    color: #32362d;
+}
 .nav-menu-link:hover,
 .nav-menu-link_active{
     background-color: #034574;
+    color: #83c5f7;
     transition: .5s;
 }
 .nav-toggle{
@@ -71,53 +81,6 @@ body{
     display: none;
 }
 
-
-
-
-
-.wrap{
-    max-width: 100%;
-    margin: 81px auto;
-}
-
-ul.tabs{
-    width: 100%;
-    background: #363636;
-    list-style: none;
-    display: flex;
-}
-ul.tabs li{
-    width: 100%;
-}
-
-ul.tabs li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    text-align: center;
-
-    display: block;
-    padding: 20px 0px;
-
-}
-.active{
-    background: #0984cc;
-}
-ul.tabs li a .tab-tex{
-    margin-left: 8px;
-}
-.secciones{
-    width: 100%;
-    background: white;
-
-}
-.secciones article{
-    padding: 30px;
-}
-.secciones article p{
-    text-align: justify;
-}
-
 @media (max-width: 768px){
     body{
         padding-top: 70px;
@@ -130,7 +93,6 @@ ul.tabs li a .tab-tex{
         padding: 0 20px;
         line-height: 60px;
     }
-    
     .nav-menu{
         flex-direction: column;
         align-items: center;
@@ -141,15 +103,12 @@ ul.tabs li a .tab-tex{
         top: 60px;
         width: 100%;
         padding: 20px 0;
-
         height: calc(100% - 60px);
         overflow-y: auto;
-
         left: 100%;
         transition: left 0.3s;
     }
     
-
     .nav-menu-item{
         line-height: 70px;
     }
@@ -167,16 +126,77 @@ ul.tabs li a .tab-tex{
     .nav-toggle:focus:not(:focus-visible){
     outline: none;
     }
-    .wrap{
-        max-width: 98%;
-        margin: -8px auto;
-    }
+  
+}
 
+
+/* ******************************************************************************** */
+
+
+.wrap{
+    max-width: 100%;
+    margin: 100px auto;    
+    
+}
+ul.tabs{
+    width: 100%;
+    background: #363636;
+    list-style: none;
+    display: flex;
+}
+ul.tabs li{
+    width: 100%;
+}
+ul.tabs li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+
+    display: block;
+    padding: 20px 0px;
+}
+.active{
+    background: #0984cc;
+}
+ul.tabs li a .tab-tex{
+    margin-left: 8px;
+}
+.secciones{
+    width: 100%;
+    height: auto;
+}
+.secciones article{
+    padding: 30px;
+}
+.secciones article p{
+    text-align: justify;
+}
+/* .estadistica_partidos iframe{
+
+} */
+
+.video_youtube iframe{
+    padding: 30px;
+}
+
+
+/* ********************contenido******************************+ */
+.imagenesInicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imagenesInicio img{
+    width: 400px;
+    height: 430px;
+    padding: 20px;
 }
 
 
 @media screen and(max-width: 700px){
-    
     ul.tabs li{
         width: none;
         flex-basis: 0;
@@ -190,6 +210,7 @@ ul.tabs li a .tab-tex{
     }
     ul.tabs li a .tab-tex{
         display: none;
+        transition: 0.3s;
     }
     .secciones article{
         padding: 20px;
