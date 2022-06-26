@@ -250,3 +250,66 @@ ul.tabs li a .tab-tex{
         padding: 20px;
     }
 }
+
+hr{
+    color: rgb(180, 212, 83);
+    background-color: rgb(181, 189, 159);
+    padding: 2px;
+    margin: 20px auto;
+}
+.footer_contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_logo img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.footer_columna1 a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);  
+    font-size: 20px;
+}
+.footer_columna1 ul{
+    list-style: none;
+}
+.footer_columna1 li{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(247, 247, 247);
+    margin: 2px auto;
+}
+.footer_columna1 li:hover{
+    background: #0984cc;
+}
+.footer-contacto{
+    color: black;
+    font-size: 20px;
+}
+.footer-contacto h3{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(247, 247, 247);
+    margin: 2px auto;
+}
+.footer-contacto h3:hover{
+    background: #0984cc;
+}
+
+
+
+h6{
+    margin: 10px auto;
+    text-align: center;
+}
+h6 a{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 135, 135);
+}
+h6 a:hover{
+    color: #83c5f7;
+}
