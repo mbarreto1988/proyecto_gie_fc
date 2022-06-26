@@ -221,12 +221,25 @@ ul.tabs li a .tab-tex{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: white;
-    opacity: .8;
+    opacity: .9;
 }
 
 .imagenesFotos img{
     height: 31vh;
     padding: 20px;
+}
+
+.imagenesFichas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: .9;
+}
+
+.imagenesFichas img{
+    height: 48vh;
+    padding: 5px;
 }
 
 
