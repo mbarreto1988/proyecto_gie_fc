@@ -1,0 +1,24 @@
+{
+  "name": "proyecto_gie_fc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbarreto1988/proyecto_gie_fc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbarreto1988/proyecto_gie_fc/issues"
+  },
+  "homepage": "https://github.com/mbarreto1988/proyecto_gie_fc#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
