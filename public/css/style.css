@@ -6,8 +6,8 @@
 
 
 body {
-    background-image: url(/img/fondo.jpeg);
-    background-size: 100% 100%;
+    background-image: url(/img/foto3.jpeg);
+    background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
 }
@@ -101,6 +101,18 @@ body {
 
     display: none;
 }
+
+.who{
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    width: 100%;
+    align-self: center;
+    background-color: white;
+    line-height: 1.6;
+}
+
+
 
 @media (max-width: 870px) {
 
@@ -232,9 +244,10 @@ ul.tabs li a .tab-tex {
 
 .secciones article p {
     text-align: justify;
-    color: rgb(255, 255, 255);
+    color: black;
     letter-spacing: 3px;
-
+    width: 90%;
+    align-self: center;
 }
 
 .estadistica iframe {
@@ -291,6 +304,14 @@ ul.tabs li a .tab-tex {
 }
 
 @media (min-width: 870px) {
+
+    .secciones article p {
+        text-align: justify;
+        color: black;
+        letter-spacing: 3px;
+        width: 50%;
+        align-self: center;
+    }
 
     .imagenesFichas img {
         display: flex;
