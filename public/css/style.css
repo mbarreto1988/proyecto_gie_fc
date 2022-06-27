@@ -198,9 +198,9 @@ body {
 .titulo {
     text-align: center;
     margin: 10px auto;
-    color: #ffff00;
+    color: #000000;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 5vw;
 }
 
 ul.tabs {
